@@ -1,5 +1,5 @@
 import React from 'react'
-import circleCheck from "../assets/images/icon-thank-you.svg";
+
 
 function Summary() {
   return (

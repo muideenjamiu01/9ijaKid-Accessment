@@ -1,9 +1,7 @@
 import "./index.css";
 import PersonalInfo from "./components/PersonalInfo";
-import FinishingUp from "./components/FinishingUp";
 import Plan from "./components/Plan";
 import AdsOn from "./components/AdsOn";
-import Stepper from "./components/Stepper";
 import Summary from "./components/Summary";
 import Confirm from "./views/Confirm";
 import { useState } from "react";
@@ -70,7 +68,7 @@ function App() {
             {currentStep === 3 && <AdsOn />}
             {currentStep === 4 && <Summary />}
             <div className="flex justify-end">
-              <button
+              <button className={`className="next-button `}
                 onClick={() => {
                   currentStep === steps.length
                     ? setComplete(true)

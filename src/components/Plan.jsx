@@ -3,23 +3,6 @@ import arcade from "../assets/images/icon-arcade.svg";
 import advanced from "../assets/images/icon-advanced.svg";
 import pro from "../assets/images/icon-pro.svg";
 
-const plans = [
-  {
-    name: "Arcade",
-    duration: "",
-    icon: "",
-  },
-  {
-    name: "Advanced",
-    duration: "",
-    icon: "",
-  },
-  {
-    name: "Pro",
-    duration: "",
-    icon: "",
-  },
-];
 
 function Plan() {
   const [toggle , setToggle ] = useState(true)

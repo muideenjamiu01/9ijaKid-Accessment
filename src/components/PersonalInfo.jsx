@@ -130,7 +130,7 @@ function PersonalInfo() {
               />
             </div>
             <div className="flex justify-end">
-              <Button type="button" text="sub" className="next-button" />
+              <Button type="button" text="Testing submit" className="next-button" />
             </div>
           </form>
         </div>

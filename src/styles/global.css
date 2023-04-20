@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* custom classnames */
+@layer components {
+    .globalContainer {
+        @apply rounded-sm shadow-xxl max-w-2xl mx-auto  mb-10 bg-red p-8 sm:p-16
+    } 
+    .headerLink {
+      @apply cursor-pointer text-sm font-light text-[#e5e5e5] transition duration-[.4s]
+          hover:text-[#b3b3b3];
+    }
+    .bannerButton {
+      @apply flex items-center gap-x-2 rounded py-1.5 text-sm font-semibold transition
+      hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
+    }
+}

@@ -5,7 +5,7 @@ const formSlice = createSlice({
 
   initialState: {
     personalInfo: {
-      name: "jamiu",
+      name: "Muhammed",
       email: "",
       phone:""
     },
